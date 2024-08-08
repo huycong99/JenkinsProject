@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "mm/lfJktt27TD5tV3/qelGDYmxk4Lz6fujgNU+Qz+G1+RgBPY3ec+eUknN7hDE0vaPnq+ek5reAEDjDPy4UnSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMINS\\source\\repos\\JenkinsProject\\JenkinsProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMINS\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ADMINS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
