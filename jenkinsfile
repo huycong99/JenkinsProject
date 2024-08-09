@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     def projectPath = '/home/jenkins/workspace/FirstPipeLineProject/JenkinsProject.sln' // Update with the relative path to your .csproj file
-                    sh "dotnet msbuild ${projectPath} --configuration Release"
+                    sh "dotnet ${projectPath} --configuration Release"
                 }
             }
         }
