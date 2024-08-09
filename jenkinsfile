@@ -2,10 +2,29 @@ pipeline {
     agent {label 'slave1'}
 
     stages {
-        stage('Hello') {
+        stage('Checkout') {
             steps {
-                echo 'Hello, World! 123'
+                git branch: 'master', url: 'https://github.com/huycong99/JenkinsProject.git'
             }
         }
+
+        stage('Restore Dependencies') {
+            steps {
+                script {
+                    def projectPath = '/home/jenkins/workspace/FirstPipeLineProject/JenkinsProject.sln' // Update with the relative path to your .csproj file
+                    sh "dotnet restore ${projectPath}"
+                }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    def projectPath = '/home/jenkins/workspace/FirstPipeLineProject/JenkinsProject.sln' // Update with the relative path to your .csproj file
+                    sh "dotnet msbuild ${projectPath} --configuration Release"
+                }
+            }
+        }
+
     }
 }
